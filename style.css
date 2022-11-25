@@ -1,0 +1,41 @@
+body{
+background-image: url(header.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h1{
+  color: aliceblue;
+  text-transform: uppercase;
+  margin-top: 160px;
+  
+}
+.btn-xl{
+  background-color: orange;
+  border-radius: 250px;
+  border-color:orange;
+transition: 1s;
+padding: 1rem 2rem;
+text-transform: uppercase;
+font-weight: 700;
+cursor: alias;
+}
+.btn-xl:hover{
+transform: scale(1.1);
+background-color: #f05f44;
+border-color: hwb(9 3% 9%);
+
+}
+hr{
+  color: rgb(215, 18, 18);
+  border-width:3px;
+  max-width: 65px;
+  display: block;
+  margin-left: 610px;
+  font-weight: 600;
+
+}
+.buff{
+  height: 200px;
+}
